@@ -1,13 +1,82 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  padding: 0;
+  box-sizing: border-box;
+ }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+ .weather-container{
+  background-color: rgba(227, 227, 227, 0.545);
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+ }
+
+ body {
+  font-family: sans-serif;
+  background-image: url(weather.webp);
+  background-repeat: no-repeat;
+  background-size: 1600px 750px;
+ }
+
+ main{
+  height: 100vh;
+  opacity: 0.5px;
+ }
+ 
+
+ .search-bar {
+  /* display: block; */
+  width: 50%;
+  padding: 15px;
+  margin: 0 0 75px;
+  margin-top: 5px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 5px 5px rgba(39, 35, 35, 0.3);
+  border-radius: 40px;
+ }
+ 
+ .search-bar:focus {
+  background-color: white;
+ }
+ 
+ .date {
+  color: white;
+  font-weight: bold;
+  margin-left: 660px;
+  margin-right: 50px;
+  margin-top: -430px;
+  width: 60%;
+  height: 20%;
+ }
+  
+ .city {
+  color: black;
+  font: 1em sans-serif;
+  font-weight: 600;
+  margin: 10px auto;
+  margin-top: 100px;
+  text-align: center;
+ }
+ 
+ .temp, .feelsLike, .humidity, .visibility, .pressure, .wind {
+  font: 1em sans-serif;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 40px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+ }
+ 
+ .condition {
+  margin: 0 auto;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  font: 1em sans-serif;
+  text-align: center;
+ }
