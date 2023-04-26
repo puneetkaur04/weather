@@ -54,7 +54,7 @@
  }
   
  .city {
-  color: black;
+  color: white;
   font: 1em sans-serif;
   font-weight: 600;
   margin: 10px auto;
@@ -68,14 +68,14 @@
   margin: 0 auto;
   border-radius: 40px;
   padding: 10px;
-  color: black;
+  color: white;
   text-align: center;
  }
  
  .condition {
   margin: 0 auto;
   padding: 10px;
-  color: black;
+  color: white;
   font-weight: bold;
   font: 1em sans-serif;
   text-align: center;
